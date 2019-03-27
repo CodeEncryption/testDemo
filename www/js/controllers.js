@@ -5,6 +5,7 @@ angular.module('starter.controllers', [])
 .controller('TestCtrl', function($scope) {})
 .controller('ChildCtrl', function($scope) {
   $scope.kids = 'Delf';
+  $scope.habbit = 'playing games'
 })
 
 .controller('ChatsCtrl', function($scope, Chats) {
